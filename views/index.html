@@ -13,6 +13,20 @@
 </head>
 <body>
 <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
+<script>
+    var WebFontConfig = {
+        google: { families: [ 'Roboto:400,300,500:latin' ] }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+</script>
 <script defer src="lib/material/material.js"></script>
 <script src="js/jquery-1.12.0.js"></script>
 <script src="js/vue.js"></script>
