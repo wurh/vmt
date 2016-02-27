@@ -70,7 +70,7 @@
     margin-top: 0px;
 }
 
-.index-btn span{
+.index-btn span {
     font-size: 14px;
     letter-spacing: 0;
     font-weight: 500;
@@ -81,15 +81,37 @@
     color: #00bcd4;
 }
 
-.mdl-index-btn
-{
+.mdl-index-btn {
     color: #4fc08d;
     background-color: #eeeeee;
 }
 
-.mdl-index-btn:hover
-{
+.mdl-index-btn:hover {
     color: #4fc08d;
     background-color: #ffffff;
 }
 
+.home-purpose {
+    padding: 72px 24px;
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 238);
+}
+
+.home-purpose-content {
+    box-sizing: border-box;
+    content: ' ';
+    display: table;
+}
+
+.home-purpose p {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 19px;
+    margin-bottom: 13px;
+    letter-spacing: 0;
+    color: rgba(0, 0, 0, 0.87);
+}
