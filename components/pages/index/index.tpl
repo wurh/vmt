@@ -8,7 +8,7 @@
 <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
     <header class="mdl-layout__header mdl-layout__header--waterfall index-head">
         <!-- Top row, always visible -->
-        <div class="mdl-layout__header-row">
+        <div class="mdl-layout__header-row mdl-js-ripple-effect">
             <div class="mdl-layout-spacer"></div>
             <a class="index-git" href="https://github.com/wurh/vmt.git" tabindex="0" type="button">
                 <i class="fa fa-github fa-2x"></i>
