@@ -107,17 +107,17 @@
         <footer class="docs-text-styling docs-footer mdl-mini-footer mdl-color--grey-900">
             <ul>
                 <li class="mdl-mini-footer--social-btn">
-                    <a class="index-git" href="git@github.com:wurh/vmt.git" tabindex="0" type="button">
+                    <a class="index-git" href="https://twitter.com/wingwa1" tabindex="0" type="button">
                         <i class="fa fa-twitter fa-2x"></i>
                     </a>
                 </li>
                 <li class="mdl-mini-footer--social-btn">
-                    <a class="index-git" href="git@github.com:wurh/vmt.git" tabindex="0" type="button">
+                    <a class="index-git" href="https://github.com/wurh" tabindex="0" type="button">
                         <i class="fa fa-github fa-2x"></i>
                     </a>
                 </li>
                 <li class="mdl-mini-footer--social-btn">
-                    <a class="index-git" href="git@github.com:wurh/vmt.git" tabindex="0" type="button">
+                    <a class="index-git" href="https://plus.google.com/u/0/" tabindex="0" type="button">
                         <i class="fa fa-google-plus fa-2x"></i>
                     </a>
                 </li>
