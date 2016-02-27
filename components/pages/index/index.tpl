@@ -63,32 +63,65 @@
             </div>
 
             <!-- content -->
-            <div style="padding: 72px 24px; box-sizing: border-box;" data-reactid=".0.1.2">
-                <div style="box-sizing:border-box;content:' ';display:table;" data-reactid=".0.1.2.$=2=2before"></div>
-                <div style="max-width:906px;margin:0 auto;" data-reactid=".0.1.2.1">
-                    <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; -webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-radius: 2px; max-width: 300px; margin: 0px 4px 0px 0px; float: left; width: 33%; background-color: rgb(255, 255, 255);"
-                         data-reactid=".0.1.2.1.0"><h3
-                            style="font-size:20px;padding-top:19px;margin-bottom:13px;letter-spacing:0;font-weight:500;color:rgba(0, 0, 0, 0.87);background-color:#eeeeee;text-align:center;margin:0;padding:0;line-height:64px;"
+            <div class="index-content-text">
+                <div class="index-content-box"></div>
+                <div class="index-content-wraps">
+                    <div class="index-content-card left-card"><h3
+                            style=""
                             data-reactid=".0.1.2.1.0.0">Get Started</h3><a class="" href="#/get-started"
                                                                            data-reactid=".0.1.2.1.0.1"><img
                             style="margin-bottom:-6px;" src="img/get-started.svg" data-reactid=".0.1.2.1.0.1.0"></a>
                     </div>
-                    <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; -webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-radius: 2px; max-width: 300px; margin: 0px 4px 0px auto; float: left; width: 33%; background-color: rgb(255, 255, 255);"
-                         data-reactid=".0.1.2.1.1"><h3
-                            style="font-size:20px;padding-top:19px;margin-bottom:13px;letter-spacing:0;font-weight:500;color:rgba(0, 0, 0, 0.87);background-color:#eeeeee;text-align:center;margin:0;padding:0;line-height:64px;"
-                            data-reactid=".0.1.2.1.1.0">Customization</h3><a class="" href="#/customization"
-                                                                             data-reactid=".0.1.2.1.1.1"><img
-                            style="margin-bottom:-6px;" src="img/css-framework.svg"
-                            data-reactid=".0.1.2.1.1.1.0"></a></div>
-                    <div style="transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; -webkit-transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-radius: 2px; max-width: 300px; margin: 0px 0px 0px auto; float: left; width: 33%; background-color: rgb(255, 255, 255);"
-                         data-reactid=".0.1.2.1.2"><h3
-                            style="font-size:20px;padding-top:19px;margin-bottom:13px;letter-spacing:0;font-weight:500;color:rgba(0, 0, 0, 0.87);background-color:#eeeeee;text-align:center;margin:0;padding:0;line-height:64px;"
-                            data-reactid=".0.1.2.1.2.0">Components</h3><a class="" href="#/components"
-                                                                          data-reactid=".0.1.2.1.2.1"><img
-                            style="margin-bottom:-6px;" src="img/components.svg" data-reactid=".0.1.2.1.2.1.0"></a>
+                    <div class="index-content-card center-card">
+                        <h3>Customization</h3>
+                        <a class="" href="#/customization">
+                            <img style="margin-bottom:-6px;" src="img/css-framework.svg">
+                        </a>
+                    </div>
+                    <div class="index-content-card right-card">
+                        <h3>Components</h3>
+                        <a class="" href="#/components">
+                            <img style="margin-bottom:-6px;" src="img/components.svg">
+                        </a>
                     </div>
                 </div>
             </div>
+
+            <!-- check out project -->
+            <div class="index-check-pro">
+                <div class="index-check-wrap">
+                    <h3>
+                        <span>Want to help make this </span>
+                        <span>project awesome? </span>
+                        <span>Check out our repo.</span>
+                    </h3>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Github
+                    </button>
+                </div>
+                <div style="box-sizing:border-box;content:' ';clear:both;display:table;"
+                     data-reactid=".0.1.3.$=2=2after"></div>
+            </div>
         </div>
+
+        <footer class="docs-text-styling docs-footer mdl-mini-footer mdl-color--grey-900">
+            <ul>
+                <li class="mdl-mini-footer--social-btn">
+                    <a class="index-git" href="git@github.com:wurh/vmt.git" tabindex="0" type="button">
+                        <i class="fa fa-twitter fa-2x"></i>
+                    </a>
+                </li>
+                <li class="mdl-mini-footer--social-btn">
+                    <a class="index-git" href="git@github.com:wurh/vmt.git" tabindex="0" type="button">
+                        <i class="fa fa-github fa-2x"></i>
+                    </a>
+                </li>
+                <li class="mdl-mini-footer--social-btn">
+                    <a class="index-git" href="git@github.com:wurh/vmt.git" tabindex="0" type="button">
+                        <i class="fa fa-google-plus fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
     </main>
 </div>
