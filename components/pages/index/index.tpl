@@ -10,7 +10,7 @@
         <!-- Top row, always visible -->
         <div class="mdl-layout__header-row">
             <div class="mdl-layout-spacer"></div>
-            <a class="index-git" href="git@github.com:wurh/vmt.git" tabindex="0" type="button">
+            <a class="index-git" href="https://github.com/wurh/vmt.git" tabindex="0" type="button">
                 <i class="fa fa-github fa-2x"></i>
             </a>
         </div>
